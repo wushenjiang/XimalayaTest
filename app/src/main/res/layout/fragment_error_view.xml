@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/network_error_icon"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="75dp"
+            android:src="@mipmap/network_error"
+            android:layout_height="75dp"/>
+    <TextView
+        android:layout_marginTop="9dp"
+        android:layout_width="wrap_content"
+        android:text="啊嘞嘞~网络不好呢~请点击重试~"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
